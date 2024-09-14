@@ -10,12 +10,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: MapScreen(),
     );
-
-
-
-
-
-
  }
 }
 class MapScreen extends StatefulWidget {
