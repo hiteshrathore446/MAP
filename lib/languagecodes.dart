@@ -28,10 +28,6 @@ class LanguageCodes {
     'Dutch': 'nl',
     'French': 'fr',
     'German': 'de',
-
-
-
-
     'Hebrew': 'he',
     'Hindi': 'hi',
     'Hungarian': 'hu',
