@@ -16,14 +16,6 @@
  * 
  * Copyright (c) 2021-2023, Ankit Sangwan
  */
-
-
-
-
-
-
-
-
 class LanguageCodes {
   // supported languages and their code
   static const Map<String, String> languageCodes = {
