@@ -4,20 +4,19 @@ import 'package:google_maps_flutter/google_maps_flutter.dart';
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
-
-@overrid
-
+  @overrid
   Widget build(BuildContext context) {
     return MaterialApp(
       home: MapScreen(),
     );
- }
+  }
 }
+
 class MapScreen extends StatefulWidget {
   @override
-  _MapScreenState createState() => _MapScreenState(
-  );
+  _MapScreenState createState() => _MapScreenState();
 }
+
 class _MapScreenState extends State<MapScreen> {
   late GoogleMapController mapController;
 
@@ -28,7 +27,6 @@ class _MapScreenState extends State<MapScreen> {
       mapController = controller;
     });
   }
-
 
   @override
   Widget build(BuildContext context) {
