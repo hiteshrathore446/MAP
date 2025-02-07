@@ -9,19 +9,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: MapScreen(),
     );
-
-
-
-
-
-
-
-
-
-
-
-
-  }
+ }
 
 
 }
