@@ -11,10 +11,6 @@ class MyApp extends StatelessWidget {
     );
  }
 
-
-
-
-
 }
 
 class MapScreen extends StatefulWidget {
